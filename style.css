@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins&display=swap');
+
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../profile_page_2.0/images/tree-1.png);
+    background-position: right;
+    background-repeat:no-repeat;
+}
+
+h1, h2, h3, p{
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:#5387B3; 
+}
+
+a:visited{
+    color:#575757; 
+}
+
+#content-holder{
+    width: 70%; 
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0;
+    
+
+}
+
+.container-nav{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#nav-bar a:hover{
+    color:#5387B3;
+}
+
+.nav-link {
+    font-family:'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.container-main{
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+}
+
+.box-main-1{
+    font-size: 60px;
+    color:#575757;
+    flex:2; 
+}
+
+.box-main-2{
+    flex:1; 
+}
+
+.profile-pic{
+    border-radius: 50%;
+    height:auto; 
+}
+
+#about{
+    height: 100vh;
+}
+
+.container-about-intro{
+    display:flex;
+    flex-direction: column;
+}
+.container-about-info{
+    display:flex; 
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.box-about{
+    background-color: white;
+    flex-basis:25%;
+    padding:15px;
+    border-radius: 15px;
+    margin:10px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+}
+
+.box-about ul{
+    margin:0;
+    padding-left:30px;
+}
+
+#main-footer{
+    background-color: #8FC798;
+}
+
+#content-holder-footer{
+    width: 70%;
+    height:400px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:70px;
+    position: relative; 
+}
+
+.box-footer-socials{
+    position:absolute;
+    bottom:50px;
+}
+
+.socials-icon{
+    margin-right:40px;
+}
+
+#content-holder-footer h2{
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+#end{
+    background-color: #B1D8B7;
+}
+
+.fix-me {
+    position:fixed;
+    right: 50px;
+    bottom:50px;
+}
